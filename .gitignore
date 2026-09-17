@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Training outputs and logs
+checkpoint/
+checkpoints/
+log/
+logs/
+runs/
+wandb/
+outputs/
+
+# Local data and generated splits
+split/
+data_root/
+datasets/
+/ISIC2019LT/
+/ISIC_Archive/
+/ISIC_2019_Training_Input/
+ISIC_2019*.zip
+ISIC_2019_Training_GroundTruth.csv
+
+# Pretrained models and local caches
+pretrained/
+hf_cache.tar.gz
+*.pth
+*.pt
+*.bin
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Internal notes and local tooling state
+.agents/
+.cobridge/
+.codex
+任务list/
+reference/
+
+# Paper figure construction artifacts
+figures/
+visualize_paper_figures.py
+visio_*/
+stage2_method_framework/
+rebuild_*.ps1
+*.vsd
+*.vsdx
+*.bak_*
+
+# Release script allowlist
+scripts/*.sh
+!scripts/common_medclip_env.sh
+!scripts/run_stage1_isic2019lt.sh
+!scripts/run_stage2_isic2019lt.sh
+!scripts/run_stage1_isic_archive.sh
+!scripts/run_stage2_isic_archive.sh
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+AGENTS.md
+AGENTS.md
